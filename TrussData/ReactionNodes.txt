@@ -1,0 +1,8 @@
+The np and ns for each of the input data files
+
+Howe 1 13
+I35W 8 20
+BarrelVault 1 6
+Triangle 1 3
+Pratt 1 9
+Warren 1 11
