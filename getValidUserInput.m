@@ -9,20 +9,20 @@
 %   None
 %
 % Output Arguments:
+%   filename is the name of the file you're working with, to be used for
+%   titling
 %   G is an N x 2 matrix, describes the geometry of the truss
 %   C is an M x 2 matrix, describes the start and end nodes of the members
 %   F is an N x 2 matrix, describes the external forces acting on the truss
-
-
-%   filename is the name of the file you're working with, to be used for
-%   titling
+%   np is the primary node, as specified by the user
+%   ns is the secondary node, as specified by the user
 %
 % Authors: Group I
 %   Owen Haberstroh (haber297@umn.edu)
 %   Lily Wilkerson (wilke541@umn.edu)
 %   Evan Stearns (stear149@umn.edu)
 %
-% Version: Nov. 24, 2025
+% Version: Dec. 3, 2025
 %==========================================================================
 function [filename, G, C, F, np, ns] = getValidUserInput()
 
