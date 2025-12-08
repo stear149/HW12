@@ -62,12 +62,13 @@ function drawTruss(G, C, T, titlestr, radius, fontsize)
 
 
         text( xm, ym, ...
-            sprintf('%.2f', T(j)), ...
-            'FontUnits', 'normalized', ...
-            'FontSize', fontsize, ...
-            'Rotation', angle, ...
-            'HorizontalAlignment', 'center', ...
-            'VerticalAlignment', 'bottom','Color',colorText);
+            sprintf('%.2f', T(j)), ... %Labels internal forces to 2 decimal places
+            'FontUnits', 'normalized', ... %Ensures text is the same size regardless of zoom
+            'FontSize', fontsize, ... %Sets fontsize
+            'Rotation', angle, ... %Sets angle
+            'HorizontalAlignment', 'center', ... %Aligns with center of member
+            'VerticalAlignment', 'middle','Color',colorText,... %Ensures text is directly on the member
+            'BackgroundColor', 'w', 'EdgeColor', colorText); %Makes box around text
         title(titlestr);
 
 
