@@ -30,6 +30,8 @@ figure(1);
 clf;
 theme light;
 axis equal;
+axis off;
+
 title(titlestr);
 
 weight = 2;
