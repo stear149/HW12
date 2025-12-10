@@ -29,6 +29,7 @@ function drawTruss(G, C, T, titlestr, radius, fontsize)
     clf;
     theme light;
     axis equal;
+    axis off;
 
     weight = 3;
     hold on;
