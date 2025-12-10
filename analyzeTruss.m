@@ -8,24 +8,22 @@
 % 
 % Input Arguments:
 % An excel spreadsheet with five specfic sheets:
-% G is an N x 2 matrix, describes the geometry of the truss
-% C is an M x 2 matrix, describes the start and end nodes of the members
-% F is an N x 2 matrix, describes the external forces acting on the truss
-% R is an N x 2 matrix, describes the reactions from the truss
-% T is an M x 1 matrix, describes the tenstion within the members
+%   G is an N x 2 matrix, describes the geometry of the truss
+%   C is an M x 2 matrix, describes the start and end nodes of the members
+%   F is an N x 2 matrix, describes the external forces acting on the truss
 % This argument is recieved from getValidUserInput and does not require
 % direct action by the user when first executing the function
 % 
 % Output Arguments:
-% R is an N x 2 matrix, describes the computed reactions
-% T is an M x 1 matrix, describes the forces acting on each member
+%   R is an N x 2 matrix, describes the computed reactions
+%   T is an M x 1 matrix, describes the forces acting on each member
 % 
 % Authors: Group I
 %   Owen Haberstroh (haber297@umn.edu)
 %   Lily Wilkerson (wilke541@umn.edu)
 %   Evan Stearns (stear149@umn.edu)
 %
-% Version: Dec. 3, 2025
+% Version: Dec. 10, 2025
 %==========================================================================
 function [R,T] = analyzeTruss()
     % use input
