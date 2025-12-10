@@ -7,7 +7,14 @@
 % as well as figures that display the truss and information.
 % 
 % Input Arguments:
-% None
+% An excel spreadsheet with five specfic sheets:
+% G is an N x 2 matrix, describes the geometry of the truss
+% C is an M x 2 matrix, describes the start and end nodes of the members
+% F is an N x 2 matrix, describes the external forces acting on the truss
+% R is an N x 2 matrix, describes the reactions from the truss
+% T is an M x 1 matrix, describes the tenstion within the members
+% This argument is recieved from getValidUserInput and does not require
+% direct action by the user when first executing the function
 % 
 % Output Arguments:
 % R is an N x 2 matrix, describes the computed reactions
