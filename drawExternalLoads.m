@@ -1,20 +1,20 @@
 %==========================================================================
 % function drawExternalLoads(G, F, R, titlestr, radius, fontsize)
 %
-% Input Arguments:
-% G is an N x 2 matrix, describes the geometry of the truss
-% F is an N x 2 matrix, describes the external forces acting on the truss
-% R is an N x 2 matrix, describes the reactions from the truss
-% titlestr is the title of the figure
-% radius is the radius of the nodes
-% fontsize is the size of the font that numbers the nodes and describes the
-% axial forces of each member
-%
-% Output Arguments:
-% None
-%
 % This function draws external loads with the information obtained from
 % getValidUserInput to be called by visualizeTruss.
+%
+% Input Arguments:
+%   G is an N x 2 matrix, describes the geometry of the truss
+%   F is an N x 2 matrix, describes the external forces acting on the truss
+%   R is an N x 2 matrix, describes the reactions from the truss
+%   titlestr is the title of the figure
+%   radius is the radius of the nodes
+%   fontsize is the size of the font that numbers the nodes and describes the
+%   axial forces of each member
+%
+% Output Arguments:
+%   None
 %
 % Authors: Code originally written by Group G, modified by Group I
 % Authors: Group I
@@ -22,7 +22,7 @@
 %  Lily Wilkerson (wilke541@umn.edu)
 %  Evan Stearns (stear149@umn.edu)
 %
-% Version: Nov. 20, 2025
+% Version: Dec. 9, 2025
 %==========================================================================
 function drawExternalLoads(G, F, R, titlestr, radius, fontsize)
 
